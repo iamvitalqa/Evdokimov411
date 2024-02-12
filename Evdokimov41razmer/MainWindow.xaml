@@ -15,8 +15,8 @@
 
         <Image HorizontalAlignment="Left" Source="/Resources/logo.png"></Image>
         <TextBlock Text="ООО 41 размер" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"></TextBlock>
-        <Frame Grid.Row="1" Name="MainFrame"></Frame>
-        <Button Content="Назад" HorizontalAlignment="Right" Name="BtnBack" Click="BtnBack_Click" ></Button>
+        <Frame Grid.Row="1" Name="MainFrame" ContentRendered="MainFrame_ContentRendered" NavigationUIVisibility="Hidden"></Frame>
+        <Button Content="Назад" HorizontalAlignment="Right" Name="BtnBack" Click="BtnBack_Click"   ></Button>
 
     </Grid>
 </Window>

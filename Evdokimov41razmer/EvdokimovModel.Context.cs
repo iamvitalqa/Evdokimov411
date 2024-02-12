@@ -24,6 +24,7 @@ namespace Evdokimov41razmer
             return _context;
         }
 
+
         public Evdokimov41Entities()
             : base("name=Evdokimov41Entities")
         {
